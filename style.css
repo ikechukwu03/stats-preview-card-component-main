@@ -10,7 +10,7 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color:hsl(233, 47%, 7%);
+  background-color:#0A0C1B;
   font-family: 'Inter', sans-serif;
 }
 
@@ -19,7 +19,7 @@ body{
   align-items: center;
   justify-content: center;
   margin: 7rem 5.625rem 0 5.625rem;
-  background-color: hsl(244, 38%, 16%);
+  background-color: #1C1938;
   color: white;
   border-radius: 10px;
 }
@@ -36,12 +36,17 @@ img{
   margin-bottom: 1.875rem;
   font-family: 'Inter', sans-serif;
   font-size: 40px; 
+  color: #FEFFFF;
 }
 .words p{
   margin-bottom: 3.125rem;
   line-height: 30px;
   font-size: 20px;
   font-family: 'Inter', sans-serif;
+  color: #9392A4;
+}
+.words span{
+  color: #AE64DF;
 }
 
 .final-layer{
@@ -50,6 +55,7 @@ img{
 
 .companies h1{
   font-family: 'Inter', sans-serif;
+  color: #FEFFFF;
   
 }
 .companies p{
@@ -57,6 +63,7 @@ img{
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: 'Lexend Deca', sans-serif;
+  color: #9392A4;
 }
 
 .templates{
@@ -65,16 +72,19 @@ img{
 }
 .templates h1{
   font-family: 'Inter', sans-serif;
+  color: #FEFFFF;
 }
 .templates p{
   text-align: center;
   letter-spacing: 1px; 
   text-transform: uppercase;
   font-family: 'Lexend Deca', sans-serif;
+  color: #9392A4;
 }
 
 .queries h1{
   font-family: 'Inter', sans-serif;
+  color: #FEFFFF;
 
 }
 .queries p{
@@ -82,10 +92,12 @@ img{
  letter-spacing: 1px;
  text-transform: uppercase;
  font-family: 'Lexend Deca', sans-serif;
+  color: #9392A4;
 }
 
 footer{
   margin-top: 1.875rem;
+  color: #FEFFFF;
 }
 footer a{
   text-decoration: none;
