@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color:hsl(233, 47%, 7%);
+  font-family: 'Inter', sans-serif;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7rem 5.625rem 0 5.625rem;
+  background-color: hsl(244, 38%, 16%);
+  color: white;
+  border-radius: 10px;
+}
+
+img{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.card{
+  margin-right: 6.25rem;
+  margin-left: 4.375rem;
+}
+.words h1{
+  margin-bottom: 1.875rem;
+  font-family: 'Inter', sans-serif;
+}
+.words p{
+  margin-bottom: 3.125rem;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.final-layer{
+  display: flex;
+}
+
+.companies h1{
+  font-family: 'Inter', sans-serif;
+  
+}
+.companies p{
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.templates{
+  margin-left: 3.4375rem;
+  margin-right: 3.4375rem ;
+}
+.templates h1{
+  font-family: 'Inter', sans-serif;
+}
+.templates p{
+  text-align: center;
+  letter-spacing: 1px; 
+  text-transform: uppercase;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.queries h1{
+  font-family: 'Inter', sans-serif;
+
+}
+.queries p{
+ text-align: center;
+ letter-spacing: 1px;
+ text-transform: uppercase;
+ font-family: 'Lexend Deca', sans-serif;
+}
+
+footer{
+  margin-top: 1.875rem;
+}
+footer a{
+  text-decoration: none;
+}
+
+
