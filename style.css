@@ -24,9 +24,19 @@ body{
   border-radius: 10px;
 }
 
+.pic{
+  position: relative;
+}
+.pic2{
+  position: absolute;
+  inset: 0;
+  background-color: #AE64DF;
+  mix-blend-mode: multiply;
+}
 img{
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  
 }
 .card{
   margin-right: 6.25rem;
@@ -103,4 +113,10 @@ footer a{
   text-decoration: none;
 }
 
+@media all and (max-width: 768px) {
+  body{
+    background-color: red;
+  }
+  
+}
 
