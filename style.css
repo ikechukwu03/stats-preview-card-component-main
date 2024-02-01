@@ -31,7 +31,8 @@ body{
   position: absolute;
   inset: 0;
   background-color: #AE64DF;
-  mix-blend-mode: multiply;
+  mix-blend-mode: multiply; 
+  opacity: 0.9;
 }
 img{
   border-top-right-radius: 10px;
