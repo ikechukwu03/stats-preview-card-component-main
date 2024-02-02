@@ -30,9 +30,9 @@ body{
 .pic2{
   position: absolute;
   inset: 0;
-  background-color: #AE64DF;
+  background-color: #8547AA;
   mix-blend-mode: multiply; 
-  opacity: 0.9;
+  filter: grayscale(0.35);  
 }
 img{
   border-top-right-radius: 10px;
